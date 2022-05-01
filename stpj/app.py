@@ -55,7 +55,8 @@ from sklearn.svm import SVC
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import classification_report,confusion_matrix
 
-data= pd.read_excel('new_st_pj/stpj/data_set/Date_Fruit_Datasets.xlsx')
+data= pd.read_excel('https://github.com/setfireonSdom/new_st_pj/blob/3853c6926cb906d0cba1e37bc436b4bf97660ffa/stpj/data_set/Date_Fruit_Datasets.xlsx')
+print(data)
 x=data.iloc[:,:-1]
 le=LabelEncoder()
 le.fit(data["Class"])
