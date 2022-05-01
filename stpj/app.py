@@ -1,3 +1,4 @@
+
 # from sklearn import linear_model
 # from sklearn import datasets
 # from sklearn.model_selection import train_test_split
@@ -55,7 +56,7 @@ from sklearn.svm import SVC
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import classification_report,confusion_matrix
 
-data = pd.read_excel('data_set/Date_Fruit_Datasets.xlsx')
+data = pd.read_excel('stpj/data_set/Date_Fruit_Datasets.xlsx')
 print(data)
 x=data.iloc[:,:-1]
 le=LabelEncoder()
